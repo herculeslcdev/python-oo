@@ -1,11 +1,11 @@
 from bank import Account
 
-wesley = Account(123, 50.00)
+wesley = Account(123)
 
-wesley.get_total()
-wesley.deposit(100)
-wesley.get_total()
-wesley.withdraw(99)
-wesley.get_total()
+# wesley.__total doesn't exists
+
+print(wesley.get_total())
+wesley.deposit(1000)
+print(wesley.get_total())
 
 

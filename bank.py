@@ -2,14 +2,14 @@ class Account:
 
     def __init__(self, number):
         self.number = number
-        self.total = 0
+        self.__total = 0
 
     def deposit(self, value):
-        self.total += value
+        self.__total += value
 
     def withdraw(self, value):
-        self.total -= value
+        self.__total -= value
 
     def get_total(self):
-        return self.total
+        return self.__total
 
