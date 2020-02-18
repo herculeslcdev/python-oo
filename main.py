@@ -1,10 +1,11 @@
-from car import Car
+from bank import Account
 
-bmw = Car('X3', 'BMW', 2017)
+wesley = Account(123, 50.00)
 
-bmw.show()
+wesley.get_total()
+wesley.deposit(100)
+wesley.get_total()
+wesley.withdraw(99)
+wesley.get_total()
 
-Car.show()
-
-bmw.drive()
 
