@@ -1,11 +1,19 @@
-from bank import Account
+from bank import Bank1Account
+from bank import Bank2Account
 
-wesley = Account(123)
+wesley = Bank1Account(12)
 
-# wesley.__total doesn't exists
+print(wesley.__class__)
+print(type(wesley))
 
-print(wesley.get_total())
-wesley.deposit(1000)
-print(wesley.get_total())
+##################################
+
+b1 = Bank1Account(123)
+b2 = Bank2Account(123, 'xpto')
+
+print(b2.cvv)
+
+
+
 
 
