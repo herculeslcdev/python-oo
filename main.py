@@ -1,9 +1,13 @@
 from car import Car
 
 gol = Car()
-print(gol.name)
-print(gol.color)
-print(gol.make)
+# instance atribute
+print(gol.x)
+# class atribute
+print(Car.x)
+# doesn't work
+# print(Car.year)
 
 gol2 = Car()
+# right way
 print(gol2.year)
