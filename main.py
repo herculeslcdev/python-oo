@@ -2,18 +2,9 @@ from car import Car
 
 gol = Car('gol', 'Volks', 2016)
 
-print(gol.year)
-print(gol.name)
-print(gol.make)
+gol.drive()
 
-########################################
+gol.hello('UOUUU')
 
-bmw320 = Car('320', 'BMW', 2016)
+Car.hello('UOUUU')
 
-print(bmw320.make)
-
-########################################
-
-bmw = Car('320', 'BMW', 2016)
-
-bmw.drive()
