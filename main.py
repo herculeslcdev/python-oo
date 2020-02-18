@@ -1,13 +1,19 @@
 from car import Car
 
-gol = Car()
-# instance atribute
-print(gol.x)
-# class atribute
-print(Car.x)
-# doesn't work
-# print(Car.year)
+gol = Car('gol', 'Volks', 2016)
 
-gol2 = Car()
-# right way
-print(gol2.year)
+print(gol.year)
+print(gol.name)
+print(gol.make)
+
+########################################
+
+bmw320 = Car('320', 'BMW', 2016)
+
+print(bmw320.make)
+
+########################################
+
+bmw = Car('320', 'BMW', 2016)
+
+bmw.drive()
