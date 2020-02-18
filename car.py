@@ -13,3 +13,7 @@ class Car:
     @staticmethod
     def hello(x):
         print(x + ": Cool static method")
+
+    @classmethod
+    def show(cls):
+        print(cls.x)

@@ -1,10 +1,10 @@
 from car import Car
 
-gol = Car('gol', 'Volks', 2016)
+bmw = Car('X3', 'BMW', 2017)
 
-gol.drive()
+bmw.show()
 
-gol.hello('UOUUU')
+Car.show()
 
-Car.hello('UOUUU')
+bmw.drive()
 
